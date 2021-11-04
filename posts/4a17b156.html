@@ -1118,7 +1118,7 @@
 <script src="/libs/valine/av-min.js"></script>
 <script src="/libs/valine/Valine.min.js"></script>
 <script>
-let metaPlaceholder = {"nick":"昵称/QQ号(必填)","mail":"邮箱(必填)","link":"网址(https://)"} ;
+let metaPlaceholder = {"nick":"昵称/QQ号(必填)","mail":"邮箱(必填)"} ;
 //这里要换行
 new Valine({
         el: '#vcomments',
@@ -1130,8 +1130,8 @@ new Valine({
         avatar: 'monsterid',
         pageSize: '10',
         lang: 'zh-CN',
-        placeholder: '留下你的足迹..',
-        meta: ["nick", "mail", "link"],
+        placeholder: '悄悄告诉你，输入qq就可以自动填充邮箱了哦 😉😉😉',
+        meta: ["nick", "mail"],
         recordIP: 'true' === 'true',
         enableQQ: 'monsterid',
         requiredFields: ["1843b8f3d2c705c3d1da7868aea0d0ff"],
